@@ -1,4 +1,4 @@
-# What's the weather?
+# What's the weather? ❄🌥
 
 **Version 1.0.0**
 
