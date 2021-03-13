@@ -21,7 +21,7 @@ export default function Home() {
 
     async function exec() {
       try {
-        const response = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${APP_ID_KEY}`)
+        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${APP_ID_KEY}`)
         if (response) {
           setCelsius(response.data.main.temp)
           setFahrenheit((response.data.main.temp * 9/5) + 32)
